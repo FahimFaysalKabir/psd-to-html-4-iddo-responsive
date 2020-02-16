@@ -805,43 +805,13 @@ margin-bottom:20px;
 .our-skills .left .images{
   margin-top:50px;
 }
-.our-skills .left .images .div1{
+.our-skills .left .images .box{
   width:20%;
-  float: left;
-}
-.our-skills .left .images .div1 img{
-  width:90%;
-  height:90%;
-}
-.our-skills .left .images .div2{
-  width:20%;
-  float: left;
-  margin-left:50px;
-}
-.our-skills .left .images .div2 img{
-  width:50%;
-  height:50%;
-}
-.our-skills .left .images .div3{
-  width:20%;
-  float: left;
-  margin-left:-10px;
-}
-.our-skills .left .images .div3 img{
-  width:90%;
-  height:90%;
-}
-.our-skills .left .images .div4{
-  width:20%;
-  float: left;
-  margin-left:60px;
-}
-.our-skills .left .images .div4 img{
-  width:50%;
-  height:50%;
+  display: inline-block;
+  margin-right:10px;
 }
 .our-skills .left .text{
-  margin-top:235px;
+  margin-top:38px;
   margin-left:53px;
   margin-right:50px;
 }
@@ -1063,6 +1033,9 @@ margin-bottom:20px;
 .our-skills .right .div5 .right p{
     color:#45b9dd;
 }
+
+
+
 /* our-skills section ends here */
 .subscribe{
   height:100px;
