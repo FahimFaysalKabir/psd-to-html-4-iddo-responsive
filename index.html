@@ -20,10 +20,11 @@
       <div class="menu-center">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="menu-right">
@@ -49,7 +50,7 @@
   </div>
   <!-- banner section ends here -->
   <!-- service section starts here -->
-  <div class="service">
+  <div class="service" id="service">
     <div class="mid">
       <div class="left">
         <h1>OUR SERVICES.</h1>
@@ -110,7 +111,7 @@
   </div>
   <!-- service section ends here -->
   <!-- service-icon section starts here -->
-  <div class="service-icon">
+  <div class="service-icon" >
     <div class="mid">
       <ul>
         <li><i class="fas fa-lightbulb"></i></li>
@@ -124,35 +125,58 @@
   </div>
   <!-- service-icon section ends here -->
   <!-- our-work section starts here -->
-  <div class="our-work">
+  <div class="our-work" id="work">
     <div class="mid">
       <div class="heading1">
         <h1>OUR WORKS.</h1>
       </div>
 
       <div class="menu">
-        <ul>
-          <li><a href="#">All</a></li>
-          <li><a href="#">Website</a></li>
-          <li><a href="#">Branding</a></li>
-        </ul>
+      
+        <button data-filter="all">All</button>
+        <button data-filter=".web">Website</button>
+        <button data-filter=".brand">Branding</button>
+
       </div>
-      <div class="placeholder">
-        <div class="top">
-          <div class="top1">
-            <div class="top1-holder">
-              <h2>NAME PROJECT</h2>
-              <p>designed by Author|May,23,2014</p>
+      <div class="placeholder container">
+
+          <div class="ph web mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
             </div>
           </div>
-          <div class="top2"></div>
-          <div class="top3"></div>
-        </div>
-        <div class="bottom">
-          <div class="bottom1"></div>
-          <div class="bottom2"></div>
-          <div class="bottom3"></div>
-        </div>
+          <div class="ph brand mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
+            </div>
+          </div>
+          <div class="ph web mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
+            </div>
+          </div>
+          <div class="ph brand mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
+            </div>
+          </div>
+          <div class="ph web mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
+            </div>
+          </div>
+          <div class="ph brand mix">
+            <div class="hover">
+              <h3>NAME PROJECT</h3>
+              <p>designed by Author | May23,2020</p>
+            </div>
+          </div>
+
       </div>
     </div>
   </div>
@@ -167,7 +191,7 @@
     </div>
   </div>
   <!-- our-team section starts here -->
-  <div class="our-team">
+  <div class="our-team" id="team">
     <div class="mid">
       <div class="heading">
         <h1>OUR TEAM.</h1>
@@ -226,7 +250,7 @@
   </div>
   <!-- our-team section ends here -->
   <!-- counter section starts here -->
-  <div class="counter">
+  <div class="counter" >
     <div class="mid">
       <div class="div1">
         <i class="fas fa-gift"></i>
@@ -252,7 +276,7 @@
   </div>
   <!-- counter section ends here -->
   <!-- our-skills section starts here -->
-  <div class="our-skills">
+  <div class="our-skills" id="skills">
     <div class="mid">
       <div class="heading">
         <h1>OUR SKILLS.</h1>
@@ -261,10 +285,10 @@
         <div class="images">
           <div class="box">
             <svg class="radial-progress" data-percentage="75" viewBox="0 0 80 80">
-    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
-  </svg>
+            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+            </svg>
           </div>
           <div class="box">
             <svg class="radial-progress"   data-percentage="25" viewBox="0 0 80 80">
@@ -330,7 +354,7 @@
   </div>
   <!-- our-skills section ends here -->
   <!-- subscribe section starts here -->
-  <div class="subscribe">
+  <div class="subscribe" >
     <div class="mid">
       <div class="width">
       <input type="text" placeholder="Enter Your e-mail here...">
@@ -353,7 +377,7 @@
   </div>
   <!-- portfolio section ends here -->
   <!-- contact-us section starts here -->
-  <div class="contact-us">
+  <div class="contact-us" id="contact">
     <div class="mid">
       <div class="heading">
         <h1>CONTACT US.</h1>
@@ -416,7 +440,9 @@
 <script type="text/javascript" src="js/html5shiv.min.js"></script>
 <script type="text/javascript" src="js/respond.min.js"></script>
 <script type="text/javascript" src="js/selectivizr-min.js"></script>
+<script type="text/javascript" src="js/mixitup.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 
 </body>
